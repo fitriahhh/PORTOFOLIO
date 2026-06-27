@@ -150,28 +150,38 @@
             <h2 class="font-display text-[clamp(28px,4vw,42px)] font-bold tracking-tight text-ink">Tentang Saya</h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-16 md:gap-20 items-start">
-            <div class="flex flex-row flex-wrap md:flex-col gap-8">
-                <div>
-                    <div class="font-display text-[52px] font-bold text-accent leading-none">3+</div>
-                    <div class="text-[13px] text-mute mt-1">Tahun pengalaman</div>
+        <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-8 md:gap-10 items-start">
+            <!-- Pendidikan & Profesi Cards -->
+            <div class="flex flex-col gap-3">
+                <!-- Pendidikan -->
+                <div class="group relative flex flex-col items-center text-center p-3 bg-bg2 border border-bdr rounded-lg transition-all duration-300 hover:border-accent hover:shadow-[0_0_20px_rgba(217,160,91,0.04)] max-w-[120px]">
+                    <div class="w-10 h-10 rounded-md bg-bg border border-bdr flex items-center justify-center overflow-hidden p-1 mb-2 transition-all duration-300 group-hover:border-accent/40">
+                        <img src="{{ asset('images/education/logo-umsida.png') }}"
+                             class="max-w-full max-h-full object-contain"
+                             alt="Logo UMSIDA"
+                             onerror="this.onerror=null; this.src='https://unpkg.com/lucide-static/icons/graduation-cap.svg'; this.className='w-5 h-5 skill-icon';">
+                    </div>
+                    <span class="text-[9px] tracking-[.10em] uppercase text-accent font-semibold">Pendidikan</span>
+                    <p class="text-mute text-[10px] mt-0.5">S1 Informatika</p>
                 </div>
-                <div>
-                    <div class="font-display text-[52px] font-bold text-accent leading-none">4+</div>
-                    <div class="text-[13px] text-mute mt-1">Project selesai</div>
-                </div>
-                <div>
-                    <div class="font-display text-[52px] font-bold text-accent leading-none">6</div>
-                    <div class="text-[13px] text-mute mt-1">Teknologi dikuasai</div>
+                <!-- Web Developer -->
+                <div class="group relative flex flex-col items-center text-center p-3 bg-bg2 border border-bdr rounded-lg transition-all duration-300 hover:border-accent hover:shadow-[0_0_20px_rgba(217,160,91,0.04)] max-w-[120px]">
+                    <div class="w-10 h-10 rounded-md bg-bg border border-bdr flex items-center justify-center overflow-hidden p-1 mb-2 transition-all duration-300 group-hover:border-accent/40">
+                        <img src="https://unpkg.com/lucide-static/icons/code.svg"
+                             class="w-5 h-5 skill-icon"
+                             alt="Web Developer">
+                    </div>
+                    <span class="text-[9px] tracking-[.10em] uppercase text-accent font-semibold">Profesi</span>
+                    <p class="text-mute text-[10px] mt-0.5">Web Developer</p>
                 </div>
             </div>
 
             <div class="text-[#C7CCB8] text-[16px] leading-[1.85]">
                 <p>
-                    Saya web developer dengan lebih dari tiga tahun pengalaman membangun aplikasi berbasis Laravel dan JavaScript. Saya menyukai proses di mana sebuah masalah bertransformasi menjadi solusi digital yang benar-benar bisa dipakai orang.
+                    Saya web developer dengan pengalaman sekitar satu tahun membangun aplikasi menggunakan Laravel dan JavaScript. Bagi saya, hal paling menyenangkan adalah saat sebuah masalah berhasil diubah jadi solusi digital yang benar-benar dipakai dan bermanfaat bagi penggunanya.
                 </p>
                 <p class="mt-5">
-                    Di luar kode, saya aktif mengikuti komunitas developer dan terus memperbarui wawasan tentang praktik terbaik dalam pengembangan web. Saya percaya kode yang baik bukan hanya yang bekerja, tapi juga yang mudah dibaca dan dipelihara.
+                    Selain ngoding, saya juga senang mengikuti perkembangan dunia web development dan belajar dari komunitas developer untuk terus mengasah kemampuan. Buat saya, kode yang bagus itu bukan cuma yang jalan, tapi juga rapi dan enak dibaca kalau suatu saat perlu diubah.
                 </p>
             </div>
         </div>
