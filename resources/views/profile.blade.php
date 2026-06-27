@@ -178,7 +178,7 @@
 
             <div class="text-[#C7CCB8] text-[16px] leading-[1.85]">
                 <p>
-                    Saya web developer dengan pengalaman sekitar satu tahun membangun aplikasi menggunakan Laravel dan JavaScript. Bagi saya, hal paling menyenangkan adalah saat sebuah masalah berhasil diubah jadi solusi digital yang benar-benar dipakai dan bermanfaat bagi penggunanya.
+                    Saya web developer dengan pengalaman sekitar satu tahun membangun aplikasi menggunakan Laravel. Bagi saya, hal paling menyenangkan adalah saat sebuah masalah berhasil diubah jadi solusi digital yang benar-benar dipakai dan bermanfaat bagi penggunanya.
                 </p>
                 <p class="mt-5">
                     Selain ngoding, saya juga senang mengikuti perkembangan dunia web development dan belajar dari komunitas developer untuk terus mengasah kemampuan. Buat saya, kode yang bagus itu bukan cuma yang jalan, tapi juga rapi dan enak dibaca kalau suatu saat perlu diubah.
